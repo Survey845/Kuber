@@ -41,7 +41,8 @@ Kuber is made of two major components
 ```
 
 2. **Start and Deploy**
-   Start the dfx server on your local machine
+
+Start the dfx server on your local machine
 
 ```bash
 dfx start --background
@@ -55,8 +56,9 @@ dfx deploy
 
 You may be prompted to enter your password, according to the identity used for you dfx configuration
 
-3. **Open Frontend**  
-   Once deployed, your application will be accessible at `http://localhost:4943?canisterId={your_canister_id}`
+3. **Open Frontend**
+
+Once deployed, your application will be accessible at `http://localhost:4943?canisterId={your_canister_id}`
 
 ## Testing
 
