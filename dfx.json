@@ -1,0 +1,27 @@
+{
+  "canisters": {
+    "kuber_backend": {
+      "candid": "src/kuber_backend/kuber_backend.did",
+      "package": "kuber_backend",
+      "type": "rust"
+    },
+    "kuber_frontend": {
+      "dependencies": [
+        "kuber_backend"
+      ],
+      "source": [
+        "src/kuber_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "kuber_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
